@@ -10,3 +10,8 @@ def hello_world():
 @app.route("/blog")
 def blog():
     return "blog"
+
+    
+@app.route("/blog")
+def blog():
+    return "blog"
