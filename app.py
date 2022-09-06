@@ -6,7 +6,3 @@ app = Flask(__name__)
 def hello_world():
     """Prentar hello world á root"""
     return "Hello, World!"
-
-@app.route("/blog")
-def blog():
-    return "blog"
