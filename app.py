@@ -10,7 +10,3 @@ def hello_world():
 @app.route("/blog")
 def blog():
     return "blog"
-
-@app.route("/test")
-def test():
-    return "test"
